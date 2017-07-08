@@ -23,6 +23,7 @@ public class EnvironmentInjectionTest {
     public void assertBlankDiscProperties() {
       assertEquals("The Beatles", blankDisc.getArtist());
       assertEquals("Sgt. Peppers Lonely Hearts Club Band", blankDisc.getTitle());
+      System.out.println("2D4294CB8D5B15E18CD09D74B560E149".equalsIgnoreCase("2D4294CB8D5B15E18CD09D74B560e149"));
     }
     
   }
